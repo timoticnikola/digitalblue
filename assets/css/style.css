@@ -303,7 +303,7 @@ body {
 #header-about-me {
 	background-image: url('../img/header-alternative.svg');
 	background-size: cover;
-	height: auto;
+	height: 80vh;
 }
 .nt-about-me-h1 {
 	color: var(--nt-font-color);
@@ -323,7 +323,7 @@ body {
 	font-size: 1.2em;
 }
 .nt-profile-img {
-	height: 500px;
+	max-height: 400px;
 }
 .nt-about-me-down {
 	border-color: var(--nt-footer-bg-color) !important;
@@ -427,7 +427,7 @@ body {
 	#header-about-me {
 		height: auto;
 	}
-	#header-about-me img {
+	.nt-profile-img {
 		margin-bottom: 25px;
 	}
 }
